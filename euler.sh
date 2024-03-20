@@ -24,3 +24,4 @@ cd openmask3d/class_agnostic_mask_computation/third_party/pointnet2
 python setup.py install --user
 
 cd ~/openmask3d
+pip install .
