@@ -20,7 +20,7 @@ pip install -U wandb==0.13.2 --no-deps
 pip install huggingface-hub==0.21.4 --no-deps
 pip install torchmetrics==0.11.0 --no-deps
 
-cd openmask3d/class_agnostic_mask_computation/third_party/votenet/pointnet2
+cd openmask3d/class_agnostic_mask_computation/third_party/pointnet2
 python setup.py install --user
 
 cd ~/openmask3d
