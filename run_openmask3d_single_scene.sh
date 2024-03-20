@@ -1,4 +1,7 @@
 #!/bin/bash
+
+module load gcc/8.2.0 python_gpu/3.8.5 open3d/0.9.0 eth_proxy
+
 export OMP_NUM_THREADS=3  # speeds up MinkowskiEngine
 set -e
 
